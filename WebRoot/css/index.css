@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+* {margin: 0;padding: 0;font-size:12px;}
+#all {width:1366px;}
+#nav {height:50px;background:#252525;color:#D8D8D8;}
+#nav li {float:left;}
+#nav .nl {float:left;margin-left:145px;text-align:center;}
+#nav .nl a {font-size:18px;color:#D8D8D8;}
+#nav .nl a:hover {text-decoration:none;}
+#nav .nl li {width:90px;height:50px;line-height:50px;}
+#nav .nl .seperate {float:left;height:50px;width:2px;background:#2A2B2D;}
+#nav .nr {float:right;position:relative;right:65px;top:5px;}
+#nav .nr li {height:23px;line-height:23px;border-right:1px solid #393939;margin:10px 0;padding:0 10px;}
+#nav .nr img {margin-left:2px;}
+#nav .nr .sear-info {width:180px;height:23px;margin-left:5px;}
+#nav .nr .sear {position:absolute;top:11px;left:213px;height:22px;background:transparent;}
+#nav .nr .input-placeholder {position:absolute;top:11px;left:99px;color:#999999;}
+#nav .nr .more {display:none;position:absolute;top:40px;right:-5px;border:1px solid #AFAFAF;z-index:1000;background:#F6F6F9;padding:10px 0;color:#888888;}
+#nav .nr .more img {position:absolute;top:-10px;left:83px;}
+#nav .nr .more li {clear:both;width:116px;;border:none;height:25px;line-height:25px;text-align:center;margin:0;padding:0;}
+#left {width:210px;float:left;}
+#PKM_Tree1 {width:208px;padding-top:10px;border:1px solid #C6C8CC;float:left;background:#F0F0F0;}
+#PKM_Tree1 li {height:31px;line-height:31px;text-align:center;color:#333333;font-size:14px;margin-bottom:2px;}
+.DateTimePicker {width:208px;margin-top:10px;float:left;}
+#right {width:1153px;float:left;}
+.header-shaw .location{height:50px;background:#F7F7F7;}
+.uploadify {float:left;margin:8px 14px 0 15px;}
+.header-shaw .l2,.header-shaw .cl2 {float:left;margin-top:10px;}
+.header-shaw .dir-path {height:30px;}
+.header-shaw .dir-path .b-no-in {color:#0066D4;}
+.header-shaw .dir-path ul li {float:left;height:30px;line-height:30px;display:block;padding-left:10px;}
+.header-shaw .dir-path ul li.dir-data {float:right;margin-right:20px;}
+.file .f-header {height:40px;background:#F7F7F7;margin:0 8px;border:1px solid #C6C8CC;}
+.file .f-header span {height:40px;line-height:40px;padding-left:7px;color:#888888;}
+.file .f-header .c1 {height:40px;width:60%;border-right:1px solid #E5E5E5;float:left;}
+.file .f-header .c2 {height:40px;width:16%;border-right:1px solid #E5E5E5;float:left;}
+.file .f-header .c3 {height:40px;float:left;}
+
+#collection-form fieldset {border:0 none;margin-top:15px;padding:0;}
+#collection-form label {margin-bottom:5px;}
+#collection-form input.text {margin-bottom:12px;width:95%;display:block;}
+#collection-form label {display:block;}
+
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }  
+.ui-timepicker-div dl { text-align: left; }  
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }  
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }  
+.ui-timepicker-div td { font-size: 90%; }  
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+#schedule {border:1px solid #AAAAAA;margin-top:5px;resize:none;}
+.hourSelect,.minSelect{width:50px;margin:1em 0.4em 0.6em 0;}
+#alarm a{color:#0000ff;text-decoration:underline;}
+
+#outerwrap{width:100%;height:100%;visibility:hidden;position:absolute;left:0;top:0;z-index:111;opacity:0.3;background:#CCCCCC;}

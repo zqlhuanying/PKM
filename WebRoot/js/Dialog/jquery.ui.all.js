@@ -1,0 +1,11 @@
+﻿$(function(){
+	$.getScript("js/Dialog/jquery-ui.custom.js");
+	$.getScript("js/Dialog/jquery.ui.button.js");
+	$.getScript("js/Dialog/jquery.ui.core.js");
+	$.getScript("js/Dialog/jquery.ui.dialog.js");
+	$.getScript("js/Dialog/jquery.ui.draggable.js");
+	$.getScript("js/Dialog/jquery.ui.mouse.js");
+	$.getScript("js/Dialog/jquery.ui.position.js");
+	$.getScript("js/Dialog/jquery.ui.resizable.js");
+	$.getScript("js/Dialog/jquery.ui.widget.js");
+});

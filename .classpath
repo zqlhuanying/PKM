@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_6_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="F:/MyEclipse 10/PKM/WebRoot/WEB-INF/lib/jodconvert/commons-cli-1.0.jar"/>
+	<classpathentry kind="lib" path="F:/MyEclipse 10/PKM/WebRoot/WEB-INF/lib/jodconvert/commons-io-1.3.1.jar"/>
+	<classpathentry kind="lib" path="F:/MyEclipse 10/PKM/WebRoot/WEB-INF/lib/jodconvert/jodconverter-2.2.1.jar"/>
+	<classpathentry kind="lib" path="F:/MyEclipse 10/PKM/WebRoot/WEB-INF/lib/jodconvert/jodconverter-cli-2.2.1.jar"/>
+	<classpathentry kind="lib" path="F:/MyEclipse 10/PKM/WebRoot/WEB-INF/lib/jodconvert/juh-2.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/MyEclipse 10/PKM/WebRoot/WEB-INF/lib/jodconvert/jurt-2.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/MyEclipse 10/PKM/WebRoot/WEB-INF/lib/jodconvert/ridl-2.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/MyEclipse 10/PKM/WebRoot/WEB-INF/lib/jodconvert/slf4j-api-1.4.3.jar"/>
+	<classpathentry kind="lib" path="F:/MyEclipse 10/PKM/WebRoot/WEB-INF/lib/jodconvert/slf4j-jdk14-1.4.3.jar"/>
+	<classpathentry kind="lib" path="F:/MyEclipse 10/PKM/WebRoot/WEB-INF/lib/jodconvert/unoil-2.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/MyEclipse 10/PKM/WebRoot/WEB-INF/lib/jodconvert/xstream-1.2.2.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

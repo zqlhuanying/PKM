@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <!-- <filter>
+    <filter-name>ssFilter</filter-name>
+    <filter-class>SsFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>ssFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <session-config>
+  <session-timeout>1</session-timeout>
+ </session-config> -->
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Validate</servlet-name>
+    <servlet-class>Validate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Json</servlet-name>
+    <servlet-class>Json</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Save</servlet-name>
+    <servlet-class>Save</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>File</servlet-name>
+    <servlet-class>File</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileOP</servlet-name>
+    <servlet-class>FileOP</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Uploadify</servlet-name>
+    <servlet-class>Uploadify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Check_exist</servlet-name>
+    <servlet-class>Check_exist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Schedule</servlet-name>
+    <servlet-class>Schedule</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Alarm</servlet-name>
+    <servlet-class>Alarm</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>Search</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Share</servlet-name>
+    <servlet-class>Share</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Collection</servlet-name>
+    <servlet-class>Collection</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindUI</servlet-name>
+    <servlet-class>FindUI</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Convert</servlet-name>
+    <servlet-class>Convert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Del_temp</servlet-name>
+    <servlet-class>Del_temp</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Validate</servlet-name>
+    <url-pattern>/Validate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Json</servlet-name>
+    <url-pattern>/Json</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Save</servlet-name>
+    <url-pattern>/Save</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>File</servlet-name>
+    <url-pattern>/File</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileOP</servlet-name>
+    <url-pattern>/FileOP</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Uploadify</servlet-name>
+    <url-pattern>/Uploadify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Check_exist</servlet-name>
+    <url-pattern>/Check_exist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Schedule</servlet-name>
+    <url-pattern>/Schedule</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Alarm</servlet-name>
+    <url-pattern>/Alarm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Share</servlet-name>
+    <url-pattern>/Share</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Collection</servlet-name>
+    <url-pattern>/Collection</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindUI</servlet-name>
+    <url-pattern>/FindUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Convert</servlet-name>
+    <url-pattern>/Convert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Del_temp</servlet-name>
+    <url-pattern>/Del_temp</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <resource-ref>
+	  <res-ref-name>jdbc/PKM</res-ref-name>
+	  <res-type>javax.sql.DataSource</res-type>
+	  <res-auth>Container</res-auth>
+  </resource-ref>
+</web-app>

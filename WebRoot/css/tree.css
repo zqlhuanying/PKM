@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+#tree {width:1153px;}
+#tree li {1background:url(../img/treeview-default-line.gif) no-repeat;border-bottom:1px solid #D2D2D2;height:40px;margin:0 8px;cursor:pointer;}
+#tree li div {float:left;}
+#tree li span {height:40px;line-height:40px;padding-left:7px;color:#000000;}
+#tree .tl1 {height:40px;width:60%;float:left;}
+#tree .tl2 {height:40px;width:16%;float:left;}
+#tree .tl3 {height:40px;float:left;}
+#tree .tl1 .folder {background:url(../img/f-fold.gif) no-repeat 2px 3px;width:20px;height:20px;display:block;float:left;padding:0;margin:10px 0 0 7px;}
+1#tree .li_background {background-position:0 -1676px}
+1#tree .hitarea {width:12px;height:12px;float:left;margin:4px -3px -3px -13px;display:inline}
+1#tree span {padding:0 0 0 15px;height:16px;line-height:16px;display:block}
+1#tree .folder span,#tree .first_li span,#tree .recycle_li span {background:url(../img/folder-closed.gif) no-repeat;}
+#tree .file span {background:url(../img/file.gif) no-repeat;}
+#tree input {border:1px solid #000000;width:100px;}
+1#tree .hitarea_bg_fold {background:url(../img/fold.gif) no-repeat;}
+1#tree .hitarea_bg_unfold {background:url(../img/fold-open.gif) no-repeat;}
+1#tree .span_bg_f_fold {background:url(../img/f-fold.gif) no-repeat;}
+1#tree .span_bg_f_unfold {background:url(../img/f-fold-open.gif) no-repeat;}

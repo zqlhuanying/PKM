@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+	  <Resource name="jdbc/PKM" 
+	  type="javax.sql.DataSource" 
+	  auth="Container" 
+	  drivername="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+	  url="jdbc:sqlserver://localhost:1433;DatabaseName=PKM"
+	  username="sa" password="sql2008" maxWait="60000" maxActive="40" maxIde="20"/>
+</context>
